@@ -4004,3 +4004,123 @@ Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 172.17.42.1 at 2015-05-25 03:27:44 +0000
 Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users" for 172.17.42.1 at 2015-05-25 03:39:24 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 435ms (Views: 433.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/scaffolds.self-07e86f9d0bedf8f9f65788f6e9ec064446429e228fa33ec85a39a11f66f3561f.css?body=1" for 172.17.42.1 at 2015-05-25 03:39:24 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 172.17.42.1 at 2015-05-25 03:39:24 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.17.42.1 at 2015-05-25 03:39:24 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:24 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:24 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:24 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:25 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:25 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users" for 172.17.42.1 at 2015-05-25 03:39:25 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 443ms (Views: 441.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/scaffolds.self-07e86f9d0bedf8f9f65788f6e9ec064446429e228fa33ec85a39a11f66f3561f.css?body=1" for 172.17.42.1 at 2015-05-25 03:39:26 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 172.17.42.1 at 2015-05-25 03:39:26 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.17.42.1 at 2015-05-25 03:39:26 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:26 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:26 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:26 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:26 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:26 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users" for 172.17.42.1 at 2015-05-25 03:39:27 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 449ms (Views: 447.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/scaffolds.self-07e86f9d0bedf8f9f65788f6e9ec064446429e228fa33ec85a39a11f66f3561f.css?body=1" for 172.17.42.1 at 2015-05-25 03:39:27 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:27 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 172.17.42.1 at 2015-05-25 03:39:27 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 172.17.42.1 at 2015-05-25 03:39:28 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:28 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:28 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:28 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 172.17.42.1 at 2015-05-25 03:39:28 +0000
+Cannot render console from 172.17.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

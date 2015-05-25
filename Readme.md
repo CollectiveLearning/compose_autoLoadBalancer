@@ -14,3 +14,15 @@
 # Consul
 
 dashboard in http://ip:85000
+
+# Resources 
+
+Docker + Consul
+
+    https://www.airpair.com/scalable-architecture-with-docker-consul-and-nginx
+    https://github.com/bellycard/docker-loadbalancer/blob/master/fig.yml
+    https://tech.bellycard.com/blog/load-balancing-docker-containers-with-nginx-and-consul-template/
+
+Speed up bundle in compose
+    
+    http://bradgessler.com/articles/docker-bundler/
