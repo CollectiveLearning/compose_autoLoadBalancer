@@ -1,0 +1,54 @@
+web:
+  build: ./compose/web
+  command: bundle exec unicorn -l 0.0.0.0:3000
+  links:
+    - db
+  volumes: 
+    - ./compose/web:/myapp
+  volumes_from:
+    - bundle
+  ports:
+    - "3000"
+  environment:
+    SERVICE_NAME: app
+    SERVICE_TAGS: production
+    SERVICE_80_NAME: http
+
+db:
+  image: postgres:latest
+  ports: 
+    - 5432
+
+bundle:
+  build: ./compose/bundle
+  command: "echo Im a little data container, short and stout..."
+  volumes:
+    - /bundle
+
+consul:
+  command: -server -bootstrap -advertise 10.0.2.15
+  image: progrium/consul:latest
+  ports:
+    - "8300:8300"
+    - "8400:8400"
+    - "8500:8500"
+    - "8600:53/udp"
+
+registrator:
+  command: consul://consul:8500
+  image: progrium/registrator:latest
+  links:
+    - consul
+  volumes:
+    - "/var/run/docker.sock:/tmp/docker.sock"
+
+nginx:
+  build: ./compose/nginx
+  links:
+    - consul
+  ports:
+    - "80:80"
+  environment:
+    SERVICE_NAME: nginx
+    SERVICE_TAGS: production
+
