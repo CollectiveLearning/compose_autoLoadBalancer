@@ -4,5 +4,5 @@ RUN mkdir /myapp
 WORKDIR /myapp
 ADD Gemfile /myapp/Gemfile
 ENV BUNDLE_PATH=/bundle
-RUN bundle install --verbose --path /bundle
+RUN bundle install --path /bundle
 Add . /myapp
